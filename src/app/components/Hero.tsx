@@ -7,11 +7,11 @@ export const Hero = () => {
     <section id="home" className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-slate-50">
       <div className="absolute inset-0 z-0">
         <ImageWithFallback
-          src="https://images.unsplash.com/photo-1764072955156-ffe88e8ca249?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwZGV0b3glMjBuYXR1cmUlMjBwZXJzb258ZW58MXx8fHwxNzczOTkyNTYyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-          alt="Digital Detox Nature"
-          className="w-full h-full object-cover opacity-20"
+          src="/hero-background.png"
+          alt="Person beside a smartphone with unplug concept"
+          className="w-full h-full object-cover opacity-100"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-white/70 via-white/80 to-white"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-white/50 via-white/65 to-white/85"></div>
       </div>
       
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
