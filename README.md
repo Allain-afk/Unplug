@@ -1,7 +1,7 @@
 
-  # Minimalist Advocacy Landing Page
+  # Minimalist Advocacy Page
 
-  This is a code bundle for Minimalist Advocacy Landing Page. The original project is available at https://www.figma.com/design/gwor6H9DJjj0Z6lFLuMnmj/Minimalist-Advocacy-Landing-Page.
+
 
   ## Running the code
 
