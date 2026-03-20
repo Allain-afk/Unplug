@@ -1,5 +1,7 @@
 import React from 'react';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { FaFacebookF, FaInstagram } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 
 export const Contact = () => {
   return (
@@ -44,15 +46,26 @@ export const Contact = () => {
               <div className="mt-16">
                 <h4 className="font-semibold mb-4 text-blue-200">Follow Our Journey</h4>
                 <div className="flex space-x-4">
-                  <a href="#" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors">
-                    {/* Placeholder for social icons */}
-                    <span className="font-bold">fb</span>
+                  <a
+                    href="#"
+                    aria-label="Facebook"
+                    className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors"
+                  >
+                    <FaFacebookF size={16} />
                   </a>
-                  <a href="#" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors">
-                    <span className="font-bold">ig</span>
+                  <a
+                    href="#"
+                    aria-label="Instagram"
+                    className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors"
+                  >
+                    <FaInstagram size={16} />
                   </a>
-                  <a href="#" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors">
-                    <span className="font-bold">tw</span>
+                  <a
+                    href="#"
+                    aria-label="X"
+                    className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors"
+                  >
+                    <FaXTwitter size={16} />
                   </a>
                 </div>
               </div>
